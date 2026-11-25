@@ -85,6 +85,9 @@ Every note starts with YAML frontmatter. Shared fields:
 | `secret: true` + tag `eva-unaware` | things Evangelina doesn't know (play her honestly) | quest, any |
 | `spoilers: true` + tag `dm-only` | DM-only content — don't surface to the player | any |
 
+### Templater
+New notes created in Obsidian inside `campaign/curse-of-strahd/01-sessions/` run the session template automatically (Templater folder template): it numbers the session as the highest `session-N` + 1, sets today's date, and renames the file to `session-N.md`.
+
 ### Rules
 - **Source of truth**: session notes record what happened; topic notes (`campaign/*/02`–`08`) record what the party *knows*. Cite sessions inline as `(S5)`.
 - **No duplicates**: an *event* note tells the story of one moment; the matching *lore* note holds the accumulated knowledge. Link them via `related:`.
@@ -127,7 +130,7 @@ Generate a narrative recap of the most recent session. Read the latest session n
 Look up a topic using only what the players have discovered so far. Search through `campaign/curse-of-strahd/01-sessions/`, `campaign/curse-of-strahd/02-characters/`, `campaign/curse-of-strahd/03-key-events/`, `campaign/curse-of-strahd/04-places/`, `campaign/curse-of-strahd/05-quests/`, `campaign/curse-of-strahd/06-factions/`, `campaign/curse-of-strahd/07-lore/`, and `campaign/curse-of-strahd/08-items/` to compile everything the party knows about the topic. Do NOT read the source PDF — this command is spoiler-free. Clearly note where information came from (which session, event, etc.).
 
 ### /session
-Create a new session entry. To determine the next session number: look for existing `session-*.md` files in `campaign/curse-of-strahd/01-sessions/`, find the highest number, and increment by one. If no session files exist yet, start at 1. Copy the template from `campaign/curse-of-strahd/_templates/session.md`, fill in the session number in the frontmatter `session` field, the heading, and today's date in both the frontmatter `date` field (YYYY-MM-DD) and the heading. Save as `campaign/curse-of-strahd/01-sessions/session-{number}.md`. The file is ready for the user to fill in during or after play.
+Create a new session entry. To determine the next session number: look for existing `session-*.md` files in `campaign/curse-of-strahd/01-sessions/`, find the highest number, and increment by one. If no session files exist yet, start at 1. Copy the template from `campaign/curse-of-strahd/_templates/session.md` — it's a Templater template, so drop the leading `<%* ... -%>` block and replace `<% n %>` with the session number and `<% today %>` with today's date (YYYY-MM-DD). Save as `campaign/curse-of-strahd/01-sessions/session-{number}.md`. The file is ready for the user to fill in during or after play.
 
 ### /update
 Takes raw session notes (provided by the user or from the latest session file in `campaign/curse-of-strahd/01-sessions/`) and propagates updates across the campaign archive:
