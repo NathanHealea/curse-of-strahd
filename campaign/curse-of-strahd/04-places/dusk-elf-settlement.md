@@ -10,7 +10,7 @@ tags: [place]
 # Dusk Elf Settlement
 
 **First Visited**: Session 5
-**Location**: Near the [[Vistani Camp]], outside [[Veloky]]
+**Location**: Near the [[Vistani Camp]], outside [[vallaki]]
 
 Home to [[Kasimear]] and the remaining [[Dusk Elves]]. Separate from the Vistani camp proper, but the two groups cooperate.
 

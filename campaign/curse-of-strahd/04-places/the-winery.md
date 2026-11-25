@@ -12,7 +12,7 @@ tags: [place]
 **Status**: Not yet visited
 **Owner**: [[Davian Martikov]] and the [[martikov-family|Martikov family]]
 
-Wine supplier to [[Veloky]]. Shipments have stopped and the party has been asked to investigate ([[investigate-the-winery|quest]]). Party plans to head here after visiting the [[Vistani Camp]].
+Wine supplier to [[vallaki]]. Shipments have stopped and the party has been asked to investigate ([[investigate-the-winery|quest]]). Party plans to head here after visiting the [[Vistani Camp]].
 
 ## What the Party Knows
 - Called the **Wizard of Wines** (S6)

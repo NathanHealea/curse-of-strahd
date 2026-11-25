@@ -23,4 +23,4 @@ tags: [npc]
 ## Relationships
 - The Hag operates in his domain and shared intel about him when defeated
 - The Vistani live in Barovia because he allows it
-- [[Issac]] enforces order in [[Veloky]] — unclear if connected to Straud
+- [[Issac]] enforces order in [[vallaki]] — unclear if connected to Straud

@@ -40,7 +40,7 @@ Dursk house — Eva had been knocked down. Party decided to leave and head towar
 | [[The Hag]] | Disguised as old lady selling "Dream Pastries," trades for children, surrendered info about Straud |
 
 ## Places Visited
-- Road to [[Veloky]]
+- Road to [[vallaki]]
 - Cemetery — witnessed the March of the Dead
 - Church — Eva and Dave rested here
 - Village near Veloky — merchant area, family home

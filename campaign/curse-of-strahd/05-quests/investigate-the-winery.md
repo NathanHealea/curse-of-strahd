@@ -14,7 +14,7 @@ tags: [quest]
 **Status**: Active — en route
 
 ## Objective
-Determine why wine shipments from [[The Winery]] to [[Veloky]] have stopped.
+Determine why wine shipments from [[The Winery]] to [[vallaki]] have stopped.
 
 ## Outcome
 Party plans to head there after visiting the [[Vistani Camp]].

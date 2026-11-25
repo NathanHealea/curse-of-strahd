@@ -12,7 +12,7 @@ tags: [faction]
 
 ## What the Party Knows
 - [[Vargis]] worships the Morning Lord (S3)
-- Appears to be the official or required religion in [[Veloky]]
+- Appears to be the official or required religion in [[vallaki]]
 - [[Issac]] violently enforces it — threatened to kill Evangelina for saying Pelor's name (S3)
 - Worshipping Pelor openly is dangerous in Barovia
 

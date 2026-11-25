@@ -2,7 +2,7 @@
 type: lore
 aliases: [Tarot Card Readings, Tarot Card Readings, Tarot]
 first_seen: 4
-sessions: [4, 5]
+sessions: [4, 5, 7]
 tags: [lore]
 ---
 # Tarot Card Readings
@@ -23,5 +23,6 @@ The party completed the Diviner and received five card readings:
 ## Theories & Updates
 - The Donjon card strongly matches Victor — surrounded by wealth (Burgomaster's son), madness (yelling for food), and his home may literally be his prison
 - **New lead (S5)**: **[[Donjohn]]**, another son of [[Vargis]], may also be connected to the **Donjon** card — the name itself is suspicious. Two possible candidates now: [[Victor]] or Donjohn.
+- **S7**: [[Victor]] has real magic. He turned Eva into a rat ([[the-false-dawn|The False Dawn]]), which fits "troubled young man" and "madness" more than ever
 - The Diviner card treasure may be at the Vistani camp itself
 - Update this file as cards are resolved or new interpretations emerge

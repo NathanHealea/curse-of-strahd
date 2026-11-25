@@ -11,7 +11,7 @@ tags: [npc]
 ---
 # Donjohn
 
-**Role**: Son of [[Vargis]], Burgomaster of [[Veloky]]
+**Role**: Son of [[Vargis]], Burgomaster of [[vallaki]]
 **First Mentioned**: Session 5
 
 ## What the Party Knows

@@ -18,7 +18,7 @@ tags: [event]
 
 [[Evangelina]] tracked the clues: barefoot prints leading to wagons, then large footprints, and a dirty ripped cloth on a fence pointing north. The cloth smelled of fish. The party headed toward the lake.
 
-A [[Veloky]] guard confirmed he had seen a **fisherman carrying a moving sack** heading to the lake. The party arrived to find the fisherman in a boat, attempting to throw the sack into the water.
+A [[vallaki]] guard confirmed he had seen a **fisherman carrying a moving sack** heading to the lake. The party arrived to find the fisherman in a boat, attempting to throw the sack into the water.
 
 Eva **shot the fisherman from the dock**. The rest of the group reached the boat and secured the sack. Eva stabbed the fisherman and the boat with the **Sunblade**, sinking the vessel. A **tentacled creature** erupted from the water — two tentacles grabbed Eva and the dead fisherman. Eva was thrown and nearly drowned. The fisherman's body was dragged under. **[[Bennadick]]** threw Picalo to Eva, and she was pulled to safety by rope and the boat.
 

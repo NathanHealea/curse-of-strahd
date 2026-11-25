@@ -47,7 +47,7 @@ Arriving in Veloky — Evangelina was arrested by Issac.
 | [[Finoa]] | Mentioned by Dagsbrun — may have an alternate perspective on Veloky's leadership |
 
 ## Places Visited
-- [[Veloky]] — Vargis's mansion, the inn
+- [[vallaki]] — Vargis's mansion, the inn
 
 ## Loot / Items
 - Letter of pardon for the party

@@ -10,7 +10,7 @@ tags: [place]
 # Vistani Camp
 
 **First Visited**: Session 4
-**Location**: Outside [[Veloky]]
+**Location**: Outside [[vallaki]]
 
 Home to the [[Vistani]] and dark elves ([[Dusk Elves]]). They remain in Barovia because [[Straud]] allows it, not by choice.
 

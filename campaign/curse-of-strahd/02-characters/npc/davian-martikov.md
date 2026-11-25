@@ -23,7 +23,7 @@ tags: [npc, martikov-family]
 
 ## Relationships
 - Father of Adrian, Elvir, Stefania, and [[urwin-martikov|Urwin]]
-- His winery supplies [[Veloky]] — the shipments have stopped ([[investigate-the-winery|quest]])
+- His winery supplies [[vallaki]] — the shipments have stopped ([[investigate-the-winery|quest]])
 
 ## Open Questions
 - Is he the evil druid, a victim of one, or neither?

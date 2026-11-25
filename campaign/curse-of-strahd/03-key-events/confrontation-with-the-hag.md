@@ -10,7 +10,7 @@ tags: [event]
 # Confrontation with the Hag
 
 **Session**: 2
-**Location**: Village near [[Veloky]]
+**Location**: Village near [[vallaki]]
 
 [[The Hag]] was disguised as an old lady going door to door with Dream Pastries. She traded a young boy from a family in exchange for 4 pies. [[Bennadick]] stole a pie. The crew of three — Bennadick, [[Peppa]], and [[Dagsbrun]] — chased her down, fought her, and won.
 

@@ -11,7 +11,7 @@ tags: [npc, the-morning-lord]
 ---
 # Issac
 
-**Role**: High-ranking official in [[Veloky]]
+**Role**: High-ranking official in [[vallaki]]
 **Alignment**: Hostile — personal vendetta against Evangelina
 
 ## What the Party Knows

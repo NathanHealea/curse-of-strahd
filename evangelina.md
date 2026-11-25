@@ -34,7 +34,8 @@ STR 17 · DEX 17 · CON 16 · INT 14 · WIS 15 · CHA 17 — Spell save **DC 14*
 ## In the Campaign
 - Archive: [[campaign/curse-of-strahd/README|Curse of Strahd]] — sessions, NPCs, places, quests
 - Order: [[dawnborn-of-pelor|Dawnborn of Pelor]] — hostile ground: [[the-morning-lord|The Morning Lord]]
-- Key events: [[the-arrest-of-evangelina|Arrest of Evangelina]] (S3), [[rescue-of-arribella|Rescue of Arribella]] (S5)
+- Key events: [[the-arrest-of-evangelina|Arrest of Evangelina]] (S3), [[rescue-of-arribella|Rescue of Arribella]] (S5), [[the-false-dawn|The False Dawn]] (S7) — she believed herself Pelor's embodiment, burned one soul to ash, and was turned into a rat by [[Victor]]
+- **Current state (S7)**: the light within her has **faded**. She is **not an oathbreaker**, but [[Bridge]] has named what she did: she burned innocents in Pelor's name
 - Obligations: [[evas-speech-for-vargis|Speech at the Festival of the Blazing Sun]] (owed to [[Vargis]])
 - Enemies: [[Issac]], [[Straud]]
 - Doesn't know (yet): [[find-bridge-mother|Bridge's search for her mother]]

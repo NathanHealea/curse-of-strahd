@@ -10,6 +10,6 @@ tags: [item]
 # Letter of Pardon
 
 **Received**: Session 3
-**Given by**: [[Vargis]], Burgomaster of [[Veloky]]
+**Given by**: [[Vargis]], Burgomaster of [[vallaki]]
 
 A pardon for the party, granted after they convinced Vargis to spare Evangelina. May have social or political utility in Veloky and possibly beyond.

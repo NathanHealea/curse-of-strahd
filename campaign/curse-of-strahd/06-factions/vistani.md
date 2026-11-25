@@ -11,7 +11,7 @@ tags: [faction]
 **Alignment**: Ambiguous — serve or are tolerated by [[Straud]]
 
 ## What the Party Knows
-- Live in a camp outside [[Veloky]] (S4)
+- Live in a camp outside [[vallaki]] (S4)
 - Remain in Barovia because [[Straud]] allows it, not by choice (S4)
 - Straud has spies among the Vistani (S2, from [[The Hag]])
 - A fortune teller at the camp gave the party tarot card readings (S4)

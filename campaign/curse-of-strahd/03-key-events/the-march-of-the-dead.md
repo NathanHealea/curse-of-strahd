@@ -11,7 +11,7 @@ tags: [event]
 # The March of the Dead
 
 **Session**: 2
-**Location**: Cemetery near [[Veloky]] to [[Castle Ravenloft]]
+**Location**: Cemetery near [[vallaki]] to [[Castle Ravenloft]]
 
 Every night at midnight, 100 ghostly spirits march from the cemetery to Castle Ravenloft. These are the spirits of adventurers who died fighting [[Straud]]. The party witnessed this on their way to Veloky.
 

@@ -11,7 +11,7 @@ tags: [npc, the-morning-lord]
 ---
 # Vargis
 
-**Role**: Burgomaster of [[Veloky]]
+**Role**: Burgomaster of [[vallaki]]
 **Alignment**: Neutral — possibly corrupt
 **Religion**: Worships the Morning Lord
 

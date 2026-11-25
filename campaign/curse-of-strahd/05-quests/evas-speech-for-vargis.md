@@ -10,7 +10,7 @@ tags: [quest]
 ---
 # Eva's Speech for Vargis
 
-**Source**: [[Vargis]], Burgomaster of [[Veloky]] (S3)
+**Source**: [[Vargis]], Burgomaster of [[vallaki]] (S3)
 **Status**: Active
 
 ## Objective

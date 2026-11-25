@@ -14,5 +14,5 @@ tags: [pc]
 - Checked on the merchant in the village near Veloky (S2)
 - Fought the Hag alongside Bennadick and Dagsbrun (S2)
 - Discovered the child the Hag had taken (S2)
-- Suspects [[Vargis]] holds sway over [[Veloky]] and there may be corruption (S3)
+- Suspects [[Vargis]] holds sway over [[vallaki]] and there may be corruption (S3)
 - Critical of Vargis's leadership (S3)

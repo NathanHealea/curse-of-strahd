@@ -11,7 +11,7 @@ tags: [faction]
 **Alignment**: Unknown
 **Seat**: [[The Winery|Wizard of Wines]] winery
 
-The family that owns and works the Wizard of Wines winery, which supplies [[Veloky]].
+The family that owns and works the Wizard of Wines winery, which supplies [[vallaki]].
 
 ## Family Tree (S6)
 - **[[Davian Martikov]]** — patriarch, owner of the winery

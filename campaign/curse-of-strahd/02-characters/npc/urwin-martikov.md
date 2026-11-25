@@ -25,4 +25,4 @@ tags: [npc, martikov-family]
 - Husband of Danika Dorakova
 
 ## Open Questions
-- Is the Blue Water Inn the inn in [[Veloky]] where the party has been staying?
+- Is the Blue Water Inn the inn in [[vallaki]] where the party has been staying?
