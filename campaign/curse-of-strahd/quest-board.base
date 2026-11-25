@@ -1,0 +1,65 @@
+filters:
+  and:
+    - file.inFolder("campaign/curse-of-strahd/05-quests")
+    - file.name != "_index"
+properties:
+  note.status:
+    displayName: Status
+  note.giver:
+    displayName: Given by
+  note.location:
+    displayName: Where
+  note.sessions:
+    displayName: Sessions
+  note.secret:
+    displayName: Eva unaware
+views:
+  - type: table
+    name: Open
+    filters:
+      or:
+        - status == "active"
+        - status == "stalled"
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - giver
+      - location
+      - sessions
+  - type: table
+    name: What Eva knows
+    filters:
+      and:
+        - status != "complete"
+        - status != "failed"
+        - secret != true
+    order:
+      - file.name
+      - status
+      - giver
+      - location
+      - sessions
+  - type: table
+    name: Behind her back
+    filters:
+      and:
+        - secret == true
+    order:
+      - file.name
+      - status
+      - giver
+      - sessions
+  - type: table
+    name: Settled
+    filters:
+      or:
+        - status == "complete"
+        - status == "failed"
+    order:
+      - file.name
+      - status
+      - giver
+      - sessions

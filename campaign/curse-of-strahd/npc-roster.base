@@ -1,0 +1,57 @@
+filters:
+  and:
+    - file.inFolder("campaign/curse-of-strahd/02-characters")
+    - file.name != "_index"
+properties:
+  note.disposition:
+    displayName: Disposition
+  note.status:
+    displayName: Status
+  note.location:
+    displayName: Last seen
+  note.faction:
+    displayName: Faction
+  note.sessions:
+    displayName: Sessions
+  note.first_seen:
+    displayName: Met
+views:
+  - type: table
+    name: By disposition
+    groupBy:
+      property: disposition
+      direction: ASC
+    order:
+      - file.name
+      - disposition
+      - status
+      - location
+      - faction
+      - sessions
+  - type: table
+    name: Still breathing
+    filters:
+      and:
+        - status == "alive"
+    order:
+      - file.name
+      - disposition
+      - location
+      - faction
+      - sessions
+  - type: table
+    name: Where they are
+    groupBy:
+      property: location
+      direction: ASC
+    order:
+      - file.name
+      - location
+      - disposition
+      - status
+  - type: cards
+    name: Gallery
+    order:
+      - file.name
+      - disposition
+      - status
