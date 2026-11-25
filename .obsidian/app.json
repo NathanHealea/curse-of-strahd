@@ -1,0 +1,8 @@
+{
+  "newFileLocation": "current",
+  "userIgnoreFilters": [
+    "campaign/curse-of-strahd/_templates/",
+    ".archive/"
+  ],
+  "alwaysUpdateLinks": true
+}

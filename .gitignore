@@ -1,2 +1,6 @@
 .DS_Store
 .archive/
+.obsidian/workspace.json
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+.obsidian/themes/

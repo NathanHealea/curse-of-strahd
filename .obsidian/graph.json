@@ -1,0 +1,35 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:character/ OR path:journal/ OR path:prayer/ OR file:evangelina",
+      "color": { "a": 1, "rgb": 15250234 }
+    },
+    {
+      "query": "path:campaign/curse-of-strahd/01-sessions/",
+      "color": { "a": 1, "rgb": 13199947 }
+    },
+    {
+      "query": "path:campaign/",
+      "color": { "a": 1, "rgb": 7045079 }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.5187132489703124,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1,
+  "close": false
+}
