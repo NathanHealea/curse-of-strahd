@@ -1,10 +1,10 @@
 ---
 type: evangelina
 kind: growth
-aliases: ["Character Growth - AI"]
+aliases: ["Character Growth", "Character Growth - AI"]
 tags: [evangelina]
 ---
-# Character Growth - AI
+# Character Growth
 
 These three events paint a really compelling arc — Evangelina's zealotry is being _tested_ by Barovia in escalating ways. Here are some character development threads you could pull on:
 

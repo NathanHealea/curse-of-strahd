@@ -1,10 +1,10 @@
 ---
 type: evangelina
 kind: backstory
-aliases: ["Character Background Story"]
+aliases: ["Backstory", "Character Background Story"]
 tags: [evangelina]
 ---
-# Character Background Story
+# Backstory
 
 
 Evangelina was not born into an ordinary life. She and her countless sisters were orphans and foundlings, taken in as infants by the Mother Superior of the Dawnspire Monastery and raised as devoted servants of the Dawnfather Pelor. Though no divine blood ran in their veins, each sister was anointed in sacred flame upon her naming day, blessed with a spark of radiant power drawn from Pelor's eternal light. Their home, the Dawnspire Monastery, rose like a beacon of fire and song, its halls resounding with hymns of the Dawnfather's glory.

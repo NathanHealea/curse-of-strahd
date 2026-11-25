@@ -1,32 +1,40 @@
-# Curse of Strahd Campaign - Claude Instructions
+# Evangelina Penitentia - Claude Instructions
 
 ## Project Overview
 
-This is a campaign archive for a **Curse of Strahd** D&D 5e campaign. The primary character is **Evangelina Penitentia**, a zealous Dawnborn paladin of Pelor (Paladin, Oath of Devotion) raised at the Dawnspire Monastery.
+This vault belongs to **Evangelina Penitentia**, a zealous Dawnborn paladin of Pelor (Paladin, Oath of Devotion) raised at the Dawnspire Monastery. **She is the subject; campaigns are context.** Her character, voice, journal, and arc live at the root. Each campaign she plays in gets its own archive under `campaign/<campaign-name>/` — currently one: `campaign/curse-of-strahd/` (D&D 5e).
 
 ## Source Material
 
 - **Campaign Module**: `/Users/nhealea/Personal/Documents/dungeons-and-dragons/books/curse-of-strahd.pdf` (2212 pages). Always use the `pages` parameter when reading (max 20 pages per request). **Do NOT use this to reveal information the players haven't discovered yet.** Only reference it to enrich details the party already knows, and to fix references. 
-- **Character Backstory**: `00-evangelina-penitentia/character-background-story.md`
-- **Character Growth**: `00-evangelina-penitentia/character-growth-ai.md`
-- **Character Voice**: `00-evangelina-penitentia/sayings.md`
+- **Character Backstory**: `character/background-story.md`
+- **Character Growth**: `character/growth.md`
+- **Character Voice**: `character/sayings.md`
 
 ## Directory Structure
 
+Evangelina first, campaigns nested beneath her.
+
 | Directory | Purpose |
 |---|---|
-| `00-evangelina-penitentia/` | Evangelina's backstory, growth arcs, sayings, prayers, journal, and generated art |
-| `01-sessions/` | Session notes (`session-{n}.md`) |
-| `02-characters/party/` | Party member profiles (Dagsbrun, Peppa, Bennadick, Bridge). Evangelina lives in `00-evangelina-penitentia/` (hub: `evangelina.md`) |
-| `02-characters/npc/` | NPC profiles (allies, enemies, unknowns) |
-| `03-key-events/` | Major plot events and turning points |
-| `04-places/` | Location descriptions |
-| `05-quests/` | Quest tracking (source, objective, outcome) |
-| `06-factions/` | Groups, organizations, and power structures (Vistani, Dusk Elves, Cult of Osiris, religions) |
-| `07-lore/` | World lore, prophecies, recurring phenomena (tarot readings, Dream Pastries, March of the Dead, Straud's domain) |
-| `08-items/` | Significant items and loot |
-| `_templates/` | Blank templates for every note type (session, npc, place, quest, event, faction, lore, item) |
-| `README.md` + `*/_index.md` | **Generated** campaign home and folder indexes — never hand-edit; rebuild with `/index` |
+| `evangelina.md` | Her character hub — the front door to everything about her |
+| `character/` | Backstory, growth arc, sayings, spells, DM-only scenarios |
+| `journal/` | Her letters to the Dawnfather, one per session (`/journal`) |
+| `prayer/` | Prayers, invocations, sermons (`/prayer`) |
+| `art/` | Portrait and character sheet PDF |
+| `campaign/` | One directory per campaign she plays in |
+| `campaign/curse-of-strahd/` | The Curse of Strahd archive — everything below is inside it |
+| `campaign/curse-of-strahd/01-sessions/` | Session notes (`session-{n}.md`) |
+| `campaign/curse-of-strahd/02-characters/party/` | Party member profiles (Dagsbrun, Peppa, Bennadick, Bridge). Evangelina is **not** here — she lives at the root |
+| `campaign/curse-of-strahd/02-characters/npc/` | NPC profiles (allies, enemies, unknowns) |
+| `campaign/curse-of-strahd/03-key-events/` | Major plot events and turning points |
+| `campaign/curse-of-strahd/04-places/` | Location descriptions |
+| `campaign/curse-of-strahd/05-quests/` | Quest tracking (source, objective, outcome) |
+| `campaign/curse-of-strahd/06-factions/` | Groups, organizations, and power structures (Vistani, Dusk Elves, Cult of Osiris, religions) |
+| `campaign/curse-of-strahd/07-lore/` | World lore, prophecies, recurring phenomena (tarot readings, Dream Pastries, March of the Dead, Straud's domain) |
+| `campaign/curse-of-strahd/08-items/` | Significant items and loot |
+| `campaign/curse-of-strahd/_templates/` | Blank templates for every note type (session, npc, place, quest, event, faction, lore, item) |
+| `README.md`, `campaign/curse-of-strahd/README.md`, `*/_index.md` | **Generated** — Evangelina's home, the campaign home, and folder indexes. Never hand-edit; rebuild with `/index`. Each `_index.md` is a live Dataview table (with a Tags column) of the notes in its own folder, so it stays current between rebuilds |
 | `.archive/` | Snapshots taken before bulk reorganizations (hidden from Obsidian) |
 
 ## Writing Conventions
@@ -68,7 +76,7 @@ Every note starts with YAML frontmatter. Shared fields:
 
 | Field | Values | Used by |
 |---|---|---|
-| `type` | `session`, `pc`, `npc`, `place`, `quest`, `event`, `faction`, `lore`, `item`, `evangelina` | all |
+| `type` | `session`, `pc`, `npc`, `place`, `quest`, `event`, `faction`, `lore`, `item`, `evangelina`, `journal`, `prayer` | all |
 | `aliases` | display title + alternate spellings (e.g. `[Kasimear, Kasimir]`) | all — this is what makes `[[Title Case]]` links resolve to `kebab-case` files |
 | `status` | npc: `alive/dead/unknown/undead` · place: `visited/unvisited` · quest: `active/stalled/complete/failed` | npc, pc, place, quest |
 | `disposition` | `friendly/neutral/hostile/unknown` | npc, faction |
@@ -78,62 +86,62 @@ Every note starts with YAML frontmatter. Shared fields:
 | `spoilers: true` + tag `dm-only` | DM-only content — don't surface to the player | any |
 
 ### Rules
-- **Source of truth**: session notes record what happened; topic notes (`02`–`08`) record what the party *knows*. Cite sessions inline as `(S5)`.
+- **Source of truth**: session notes record what happened; topic notes (`campaign/*/02`–`08`) record what the party *knows*. Cite sessions inline as `(S5)`.
 - **No duplicates**: an *event* note tells the story of one moment; the matching *lore* note holds the accumulated knowledge. Link them via `related:`.
 - **New spelling of a name?** Add it to that note's `aliases` instead of creating a new note.
-- **After any change**, run `python3 .claude/scripts/build_index.py` (or `/index`) to rebuild `README.md` and the `_index.md` files.
+- **After any change**, run `python3 .claude/scripts/build_index.py` (or `/index`) to rebuild both home pages and the `_index.md` files.
 
 ### /index
-Rebuild `README.md` and every folder's `_index.md` from frontmatter, then audit for missing frontmatter, broken links, and unpropagated sessions.
+Rebuild the Evangelina home (`README.md`), the campaign home, and every folder’s `_index.md` from frontmatter, then audit for missing frontmatter, broken links, and unpropagated sessions.
 
 ## Slash Commands
 
 ### /journal
-Write a journal entry as Evangelina reflecting on recent session events. Read the latest session notes from `01-sessions/` and any relevant files from `03-key-events/`. Write in first person, in Evangelina's voice — prayerful, fierce, conflicted. Address entries to the Dawnfather. Save to `00-evangelina-penitentia/journal/` with the filename format `session-{number}.md`.
+Write a journal entry as Evangelina reflecting on recent session events. Read the latest session notes from `campaign/curse-of-strahd/01-sessions/` and any relevant files from `campaign/curse-of-strahd/03-key-events/`. Write in first person, in Evangelina's voice — prayerful, fierce, conflicted. Address entries to the Dawnfather. Save to `journal/` with the filename format `session-{number}.md`.
 
 ### /npc [name]
-Create or update an NPC profile. Check `02-characters/npc/` for existing profiles. Use the established format: key facts, relationships, and notable interactions with the party. Save to `02-characters/npc/{name}.md`.
+Create or update an NPC profile. Check `campaign/curse-of-strahd/02-characters/npc/` for existing profiles. Use the established format: key facts, relationships, and notable interactions with the party. Save to `campaign/curse-of-strahd/02-characters/npc/{name}.md`.
 
 ### /event [title]
-Document a key campaign event. Write in narrative prose with key outcomes. Cross-reference characters and locations with `[[wiki-links]]`. Save to `03-key-events/{title}.md`.
+Document a key campaign event. Write in narrative prose with key outcomes. Cross-reference characters and locations with `[[wiki-links]]`. Save to `campaign/curse-of-strahd/03-key-events/{title}.md`.
 
 ### /quest [title]
-Create or update a quest entry with Source, Objective, and current Outcome/Status. Save to `05-quests/{title}.md`.
+Create or update a quest entry with Source, Objective, and current Outcome/Status. Save to `campaign/curse-of-strahd/05-quests/{title}.md`.
 
 ### /place [name]
-Create or update a location profile. Note what the party has discovered and any unresolved threads. Save to `04-places/{name}.md`.
+Create or update a location profile. Note what the party has discovered and any unresolved threads. Save to `campaign/curse-of-strahd/04-places/{name}.md`.
 
 ### /prayer [topic]
-Write a prayer, invocation, or sermon as Evangelina on the given topic. Use her voice — blazing conviction, sacred imagery, Pelor's light. Save to `00-evangelina-penitentia/prayer/{topic}.md`. Allow for prayers to be short or long.
+Write a prayer, invocation, or sermon as Evangelina on the given topic. Use her voice — blazing conviction, sacred imagery, Pelor's light. Save to `prayer/{topic}.md`. Allow for prayers to be short or long.
 
 ### /threat [topic]
 Generate a threat or intimidating statement in Evangelina's voice directed at or about the given topic. Channel her righteous fury — burning conviction, divine wrath, promises of holy judgment. These should feel like a paladin who means every scorching word. Output directly to the chat.
 
 ### /saying [context] [--save]
-Generate a comment or saying as Evangelina for a given situation or context. Read her existing sayings and backstory for voice reference, then write a short in-character line — prayerful, fierce, laced with sacred flame imagery. Keep the saying under 256 characters by default. Output directly to the chat. If the `--save` flag is included, also append the new saying to `00-evangelina-penitentia/sayings.md`.
+Generate a comment or saying as Evangelina for a given situation or context. Read her existing sayings and backstory for voice reference, then write a short in-character line — prayerful, fierce, laced with sacred flame imagery. Keep the saying under 256 characters by default. Output directly to the chat. If the `--save` flag is included, also append the new saying to `character/sayings.md`.
 
 ### /recap
-Generate a narrative recap of the most recent session. Read the latest session notes from `01-sessions/` and summarize what happened in vivid, campaign-journal prose (third person). Highlight key decisions, combat, and character moments.
+Generate a narrative recap of the most recent session. Read the latest session notes from `campaign/curse-of-strahd/01-sessions/` and summarize what happened in vivid, campaign-journal prose (third person). Highlight key decisions, combat, and character moments.
 
 ### /lore [topic]
-Look up a topic using only what the players have discovered so far. Search through `01-sessions/`, `02-characters/`, `03-key-events/`, `04-places/`, `05-quests/`, `06-factions/`, `07-lore/`, and `08-items/` to compile everything the party knows about the topic. Do NOT read the source PDF — this command is spoiler-free. Clearly note where information came from (which session, event, etc.).
+Look up a topic using only what the players have discovered so far. Search through `campaign/curse-of-strahd/01-sessions/`, `campaign/curse-of-strahd/02-characters/`, `campaign/curse-of-strahd/03-key-events/`, `campaign/curse-of-strahd/04-places/`, `campaign/curse-of-strahd/05-quests/`, `campaign/curse-of-strahd/06-factions/`, `campaign/curse-of-strahd/07-lore/`, and `campaign/curse-of-strahd/08-items/` to compile everything the party knows about the topic. Do NOT read the source PDF — this command is spoiler-free. Clearly note where information came from (which session, event, etc.).
 
 ### /session
-Create a new session entry. To determine the next session number: look for existing `session-*.md` files in `01-sessions/`, find the highest number, and increment by one. If no session files exist yet, start at 1. Copy the template from `_templates/session.md`, fill in the session number in the frontmatter `session` field, the heading, and today's date in both the frontmatter `date` field (YYYY-MM-DD) and the heading. Save as `01-sessions/session-{number}.md`. The file is ready for the user to fill in during or after play.
+Create a new session entry. To determine the next session number: look for existing `session-*.md` files in `campaign/curse-of-strahd/01-sessions/`, find the highest number, and increment by one. If no session files exist yet, start at 1. Copy the template from `campaign/curse-of-strahd/_templates/session.md`, fill in the session number in the frontmatter `session` field, the heading, and today's date in both the frontmatter `date` field (YYYY-MM-DD) and the heading. Save as `campaign/curse-of-strahd/01-sessions/session-{number}.md`. The file is ready for the user to fill in during or after play.
 
 ### /update
-Takes raw session notes (provided by the user or from the latest session file in `01-sessions/`) and propagates updates across the campaign archive:
-- **Characters** (`02-characters/npc/` and `02-characters/party/`): Update existing profiles with new interactions, or create new NPC profiles for newly met characters.
-- **Key Events** (`03-key-events/`): Create entries for any major events that occurred.
-- **Places** (`04-places/`): Update or create location entries for places visited.
-- **Quests** (`05-quests/`): Update quest progress, add new quests, or mark quests complete.
-- **Factions** (`06-factions/`): Update or create entries for groups, organizations, or power structures encountered.
-- **Lore** (`07-lore/`): Update prophecies, world lore, or recurring phenomena with new information.
-- **Items** (`08-items/`): Create entries for significant new items found or received.
+Takes raw session notes (provided by the user or from the latest session file in `campaign/curse-of-strahd/01-sessions/`) and propagates updates across the campaign archive:
+- **Characters** (`campaign/curse-of-strahd/02-characters/npc/` and `campaign/curse-of-strahd/02-characters/party/`): Update existing profiles with new interactions, or create new NPC profiles for newly met characters.
+- **Key Events** (`campaign/curse-of-strahd/03-key-events/`): Create entries for any major events that occurred.
+- **Places** (`campaign/curse-of-strahd/04-places/`): Update or create location entries for places visited.
+- **Quests** (`campaign/curse-of-strahd/05-quests/`): Update quest progress, add new quests, or mark quests complete.
+- **Factions** (`campaign/curse-of-strahd/06-factions/`): Update or create entries for groups, organizations, or power structures encountered.
+- **Lore** (`campaign/curse-of-strahd/07-lore/`): Update prophecies, world lore, or recurring phenomena with new information.
+- **Items** (`campaign/curse-of-strahd/08-items/`): Create entries for significant new items found or received.
 Cross-reference everything with `[[wiki-links]]`. Summarize what was updated when finished.
 
 ### /note [contents]
-Add a quick note to the most recent session. Finds the highest-numbered `session-*.md` in `01-sessions/` and appends the contents as a bullet point under the `## Notes` section.
+Add a quick note to the most recent session. Finds the highest-numbered `session-*.md` in `campaign/curse-of-strahd/01-sessions/` and appends the contents as a bullet point under the `## Notes` section.
 
 ### /growth
-Analyze Evangelina's character development. Read her backstory, growth notes, and recent events. Identify how recent sessions have pushed her arc forward. Suggest potential character moments or internal conflicts for upcoming sessions. Append insights to `00-evangelina-penitentia/character-growth-ai.md`.
+Analyze Evangelina's character development. Read her backstory, growth notes, and recent events. Identify how recent sessions have pushed her arc forward. Suggest potential character moments or internal conflicts for upcoming sessions. Append insights to `character/growth.md`.
