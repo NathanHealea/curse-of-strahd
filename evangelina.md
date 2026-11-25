@@ -13,10 +13,14 @@ Zealous Dawnborn of Pelor, raised at the Dawnspire Monastery. Chaotic Good. Her 
 
 ![[evangelina-portrait.png|200]]
 
+**Paladin 6** (Oath of Devotion) · Human · Soldier · 32 · 6'2" · AC **19** · HP **58** · Speed 30 ft. · Prof **+3**
+STR 17 · DEX 17 · CON 16 · INT 14 · WIS 15 · CHA 17 — Spell save **DC 14**, attack **+6**, [[sunblade|Sunblade]] in hand.
+
 ## Who She Is
 - [[background-story|Backstory]] — the Dawnspire, the night of ruin, Seraphine
-- [[character-sheet-20260326.pdf|Character Sheet (2026-03-26)]]
-- [[spells|Spells & Invocations]] — Paladin 4, Oath of Devotion
+- [[spells|Spells & Invocations]] — Paladin 6, Oath of Devotion
+- [[character-sheet-20261106.pdf|Character Sheet (2026-11-06)]] — current, embedded at the bottom of this page
+- [[character-sheet-20260326.pdf|Character Sheet (2026-03-26)]] — previous, at Paladin 4
 
 ## Her Voice
 - [[sayings|Sayings]] — battle cries, healing words, mercy killings
@@ -34,3 +38,6 @@ Zealous Dawnborn of Pelor, raised at the Dawnspire Monastery. Chaotic Good. Her 
 - Obligations: [[evas-speech-for-vargis|Speech at the Festival of the Blazing Sun]] (owed to [[Vargis]])
 - Enemies: [[Issac]], [[Straud]]
 - Doesn't know (yet): [[find-bridge-mother|Bridge's search for her mother]]
+
+## Character Sheet
+![[character-sheet-20261106.pdf]]

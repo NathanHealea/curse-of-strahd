@@ -17,14 +17,14 @@ Eva believes she *is* Pelor, come down in flesh to purge Barovia's darkness from
 
 ### Entering the Town
 
-- *"Wake, children of the grey. Your night is ended. The Sun has come down from the sky to walk your streets on foot."*
+- *"Wake, children of the grey. Your night had ended. The Sun has come down from the sky to walk your streets on foot."*
 - *"Do not shield your eyes. Look upon Me. You have lived so long in shadow that you have forgotten My face."*
 - *"Open your doors! I do not knock twice. The dawn does not ask permission of the dark."*
 - *"I have heard your prayers to the Morning Lord. Sweet children — you were calling My name and did not know how to spell it."*
 
 ### The Sermon (Town Square)
 
-> *"Hear Me, Barovia! For a thousand nights you have bowed to the mist. You have bolted your shutters and fed your children to the fog and called it survival. I call it a wound — and I have come to cauterize it.*
+> *"Hear Me, Vallaki! For a thousand nights you have bowed to the mist. You have bolted your shutters and fed your children to the fog and called it survival. I call it a wound — and I have come to cauterize it.*
 >
 > *Within every one of you is a coal of My light, buried under ash. The darkness has crept into your marrow, your breath, your dreams. It wears your faces. It speaks with your tongues. You cannot cut it out alone — but I can burn it out.*
 >
@@ -90,8 +90,8 @@ She does not recognize them as her friends — they look like heralds, priests, 
 - *(quietly, to the party)* *"Tell me plainly. How many did I heal — and how many did I burn?"*
 
 > **DM notes — mechanics**
-> - Evangelina is a **Paladin 4 (Oath of Devotion)**: Lay on Hands pool = **20 HP**, three 1st-level slots, **Sunblade** in hand. *Burning Hands* is not on her spell list — if you want that effect, treat a lit Sunblade "knighting" as a melee hit, or have her trigger something environmental (a torch, a brazier, a thatched roof).
-> - Optional random table per blessing (d6): **1–2** Lay on Hands, **3** Bless, **4** Shield of Faith, **5** Searing Smite / lit Sunblade, **6** Divine Smite.
+> - Evangelina is a **Paladin 6 (Oath of Devotion)**: Lay on Hands pool = **30 HP**, four 1st-level and two 2nd-level slots, spell save **DC 14**, **Aura of Protection** (+3 to saves within 10 ft.), [[sunblade|Sunblade]] in hand. *Burning Hands* is not on her spell list — if you want that effect, treat a lit Sunblade "knighting" as a melee hit, or have her trigger something environmental (a torch, a brazier, a thatched roof).
+> - Optional random table per blessing (d8): **1–2** Lay on Hands, **3** Bless, **4** Shield of Faith, **5** Searing Smite / lit Sunblade, **6** Divine Smite, **7** Aid, **8** Zone of Truth — she demands the truth and is terrified of the answer.
 > - Lean the roll toward *burn* when the target is afraid, resists, or worships the Morning Lord loudly; toward *heal* when the target is a child or genuinely kneels. Eva's subconscious is choosing even if she isn't.
 > - Echo: this is exactly what her Mother Superior did — divine fire that took friend and foe alike — and what she did to the coffin maker. Let a villager or party member say so afterward.
 
